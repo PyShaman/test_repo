@@ -24,7 +24,7 @@ def token(request):
 
 @pytest.fixture
 def create_brand():
-    payload = {"name": f"name_{generate_random_string(6)}", "slug": f"slug_{generate_random_string(6)}"}
+    payload = {"name": f"name_{generate_random_string(8)}", "slug": f"slug_{generate_random_string(8)}"}
     logger.info(f"Executing POST /brands request with payload: {payload}")
     create_brand = requests.post(f"{URL}/brands", json=payload, timeout=5)
     brand_id = create_brand.json()["id"]
