@@ -1,0 +1,438 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed May 17 07:37:03 GMT 2023","Wed May 17 07:37:04 GMT 2023","934","tests","test_brands_microservice","TestBrandsMicroservice","","","test_006_negative_update_name_and_slug_to_existing_one","
+Test type: Positive and Negative
+
+Test microservice: Brands
+
+Test description: Suite is responsible for verifying proper functionality for /brands microservice.
+
+Endpoint: GET /brands
+Description: This endpoint allows you to retrieve a list of brands from the system. The response contains detailed
+information about each brand, such as name, identifier (ID) and other brand-related data. This is useful for displaying
+the list of brands in the user interface or other operations that require access to brand information.
+
+Endpoint: POST /brands Description: This endpoint allows you to add a new brand to the system. It requires the 
+submission of brand data, such as name and other related information. Once the brand is successfully created, 
+the response contains the identifier (ID) of the created brand and other details.
+
+Endpoint: GET /brands/{id}
+Description: This endpoint allows you to retrieve detailed information about a specific brand based on its identifier
+(ID). It returns all available brand data, such as name, ID and other related information.
+
+Endpoint: PUT /brands/{id}
+Description: This endpoint allows updating the data of a specific brand based on its identifier (ID). It requires the
+updated brand data to be passed, which will be applied to the existing brand information. After a successful update,
+the response contains the updated brand details.
+
+Endpoint: DELETE /brands/{id}
+Description: This endpoint allows you to delete a specific brand based on its identifier (ID). After successful
+deletion, the response confirms the deletion operation.
+"
+"passed","Wed May 17 07:37:05 GMT 2023","Wed May 17 07:37:05 GMT 2023","285","tests","test_brands_microservice","TestBrandsMicroservice","","","test_010_destructive_create_brand_with_incorrect_payload","
+Test type: Positive and Negative
+
+Test microservice: Brands
+
+Test description: Suite is responsible for verifying proper functionality for /brands microservice.
+
+Endpoint: GET /brands
+Description: This endpoint allows you to retrieve a list of brands from the system. The response contains detailed
+information about each brand, such as name, identifier (ID) and other brand-related data. This is useful for displaying
+the list of brands in the user interface or other operations that require access to brand information.
+
+Endpoint: POST /brands Description: This endpoint allows you to add a new brand to the system. It requires the 
+submission of brand data, such as name and other related information. Once the brand is successfully created, 
+the response contains the identifier (ID) of the created brand and other details.
+
+Endpoint: GET /brands/{id}
+Description: This endpoint allows you to retrieve detailed information about a specific brand based on its identifier
+(ID). It returns all available brand data, such as name, ID and other related information.
+
+Endpoint: PUT /brands/{id}
+Description: This endpoint allows updating the data of a specific brand based on its identifier (ID). It requires the
+updated brand data to be passed, which will be applied to the existing brand information. After a successful update,
+the response contains the updated brand details.
+
+Endpoint: DELETE /brands/{id}
+Description: This endpoint allows you to delete a specific brand based on its identifier (ID). After successful
+deletion, the response confirms the deletion operation.
+"
+"passed","Wed May 17 07:37:01 GMT 2023","Wed May 17 07:37:01 GMT 2023","298","tests","test_brands_microservice","TestBrandsMicroservice","","","test_005_negative_delete_not_existing_brand[token0]","
+Test type: Positive and Negative
+
+Test microservice: Brands
+
+Test description: Suite is responsible for verifying proper functionality for /brands microservice.
+
+Endpoint: GET /brands
+Description: This endpoint allows you to retrieve a list of brands from the system. The response contains detailed
+information about each brand, such as name, identifier (ID) and other brand-related data. This is useful for displaying
+the list of brands in the user interface or other operations that require access to brand information.
+
+Endpoint: POST /brands Description: This endpoint allows you to add a new brand to the system. It requires the 
+submission of brand data, such as name and other related information. Once the brand is successfully created, 
+the response contains the identifier (ID) of the created brand and other details.
+
+Endpoint: GET /brands/{id}
+Description: This endpoint allows you to retrieve detailed information about a specific brand based on its identifier
+(ID). It returns all available brand data, such as name, ID and other related information.
+
+Endpoint: PUT /brands/{id}
+Description: This endpoint allows updating the data of a specific brand based on its identifier (ID). It requires the
+updated brand data to be passed, which will be applied to the existing brand information. After a successful update,
+the response contains the updated brand details.
+
+Endpoint: DELETE /brands/{id}
+Description: This endpoint allows you to delete a specific brand based on its identifier (ID). After successful
+deletion, the response confirms the deletion operation.
+"
+"passed","Wed May 17 07:37:05 GMT 2023","Wed May 17 07:37:05 GMT 2023","300","tests","test_brands_microservice","TestBrandsMicroservice","","","test_011_destructive_create_brand_with_empty_payload","
+Test type: Positive and Negative
+
+Test microservice: Brands
+
+Test description: Suite is responsible for verifying proper functionality for /brands microservice.
+
+Endpoint: GET /brands
+Description: This endpoint allows you to retrieve a list of brands from the system. The response contains detailed
+information about each brand, such as name, identifier (ID) and other brand-related data. This is useful for displaying
+the list of brands in the user interface or other operations that require access to brand information.
+
+Endpoint: POST /brands Description: This endpoint allows you to add a new brand to the system. It requires the 
+submission of brand data, such as name and other related information. Once the brand is successfully created, 
+the response contains the identifier (ID) of the created brand and other details.
+
+Endpoint: GET /brands/{id}
+Description: This endpoint allows you to retrieve detailed information about a specific brand based on its identifier
+(ID). It returns all available brand data, such as name, ID and other related information.
+
+Endpoint: PUT /brands/{id}
+Description: This endpoint allows updating the data of a specific brand based on its identifier (ID). It requires the
+updated brand data to be passed, which will be applied to the existing brand information. After a successful update,
+the response contains the updated brand details.
+
+Endpoint: DELETE /brands/{id}
+Description: This endpoint allows you to delete a specific brand based on its identifier (ID). After successful
+deletion, the response confirms the deletion operation.
+"
+"passed","Wed May 17 07:36:55 GMT 2023","Wed May 17 07:36:56 GMT 2023","592","tests","crud_test","","","","test_003_put_brand",""
+"passed","Wed May 17 07:37:04 GMT 2023","Wed May 17 07:37:05 GMT 2023","282","tests","test_brands_microservice","TestBrandsMicroservice","","","test_009_negative_perform_delete_on_search_endpoint","
+Test type: Positive and Negative
+
+Test microservice: Brands
+
+Test description: Suite is responsible for verifying proper functionality for /brands microservice.
+
+Endpoint: GET /brands
+Description: This endpoint allows you to retrieve a list of brands from the system. The response contains detailed
+information about each brand, such as name, identifier (ID) and other brand-related data. This is useful for displaying
+the list of brands in the user interface or other operations that require access to brand information.
+
+Endpoint: POST /brands Description: This endpoint allows you to add a new brand to the system. It requires the 
+submission of brand data, such as name and other related information. Once the brand is successfully created, 
+the response contains the identifier (ID) of the created brand and other details.
+
+Endpoint: GET /brands/{id}
+Description: This endpoint allows you to retrieve detailed information about a specific brand based on its identifier
+(ID). It returns all available brand data, such as name, ID and other related information.
+
+Endpoint: PUT /brands/{id}
+Description: This endpoint allows updating the data of a specific brand based on its identifier (ID). It requires the
+updated brand data to be passed, which will be applied to the existing brand information. After a successful update,
+the response contains the updated brand details.
+
+Endpoint: DELETE /brands/{id}
+Description: This endpoint allows you to delete a specific brand based on its identifier (ID). After successful
+deletion, the response confirms the deletion operation.
+"
+"passed","Wed May 17 07:36:57 GMT 2023","Wed May 17 07:36:57 GMT 2023","598","tests","test_brands_microservice","TestBrandsMicroservice","","","test_001_positive_get_brands","
+Test type: Positive and Negative
+
+Test microservice: Brands
+
+Test description: Suite is responsible for verifying proper functionality for /brands microservice.
+
+Endpoint: GET /brands
+Description: This endpoint allows you to retrieve a list of brands from the system. The response contains detailed
+information about each brand, such as name, identifier (ID) and other brand-related data. This is useful for displaying
+the list of brands in the user interface or other operations that require access to brand information.
+
+Endpoint: POST /brands Description: This endpoint allows you to add a new brand to the system. It requires the 
+submission of brand data, such as name and other related information. Once the brand is successfully created, 
+the response contains the identifier (ID) of the created brand and other details.
+
+Endpoint: GET /brands/{id}
+Description: This endpoint allows you to retrieve detailed information about a specific brand based on its identifier
+(ID). It returns all available brand data, such as name, ID and other related information.
+
+Endpoint: PUT /brands/{id}
+Description: This endpoint allows updating the data of a specific brand based on its identifier (ID). It requires the
+updated brand data to be passed, which will be applied to the existing brand information. After a successful update,
+the response contains the updated brand details.
+
+Endpoint: DELETE /brands/{id}
+Description: This endpoint allows you to delete a specific brand based on its identifier (ID). After successful
+deletion, the response confirms the deletion operation.
+"
+"passed","Wed May 17 07:36:56 GMT 2023","Wed May 17 07:36:57 GMT 2023","1011","tests","crud_test","","","","test_004_delete_brand",""
+"passed","Wed May 17 07:37:06 GMT 2023","Wed May 17 07:37:06 GMT 2023","345","tests","test_brands_microservice","TestBrandsMicroservice","","","test_014_negative_reject_unauthorized_delete","
+Test type: Positive and Negative
+
+Test microservice: Brands
+
+Test description: Suite is responsible for verifying proper functionality for /brands microservice.
+
+Endpoint: GET /brands
+Description: This endpoint allows you to retrieve a list of brands from the system. The response contains detailed
+information about each brand, such as name, identifier (ID) and other brand-related data. This is useful for displaying
+the list of brands in the user interface or other operations that require access to brand information.
+
+Endpoint: POST /brands Description: This endpoint allows you to add a new brand to the system. It requires the 
+submission of brand data, such as name and other related information. Once the brand is successfully created, 
+the response contains the identifier (ID) of the created brand and other details.
+
+Endpoint: GET /brands/{id}
+Description: This endpoint allows you to retrieve detailed information about a specific brand based on its identifier
+(ID). It returns all available brand data, such as name, ID and other related information.
+
+Endpoint: PUT /brands/{id}
+Description: This endpoint allows updating the data of a specific brand based on its identifier (ID). It requires the
+updated brand data to be passed, which will be applied to the existing brand information. After a successful update,
+the response contains the updated brand details.
+
+Endpoint: DELETE /brands/{id}
+Description: This endpoint allows you to delete a specific brand based on its identifier (ID). After successful
+deletion, the response confirms the deletion operation.
+"
+"passed","Wed May 17 07:37:00 GMT 2023","Wed May 17 07:37:00 GMT 2023","304","tests","test_brands_microservice","TestBrandsMicroservice","","","test_004_negative_post_brand_with_existing_name_and_brand","
+Test type: Positive and Negative
+
+Test microservice: Brands
+
+Test description: Suite is responsible for verifying proper functionality for /brands microservice.
+
+Endpoint: GET /brands
+Description: This endpoint allows you to retrieve a list of brands from the system. The response contains detailed
+information about each brand, such as name, identifier (ID) and other brand-related data. This is useful for displaying
+the list of brands in the user interface or other operations that require access to brand information.
+
+Endpoint: POST /brands Description: This endpoint allows you to add a new brand to the system. It requires the 
+submission of brand data, such as name and other related information. Once the brand is successfully created, 
+the response contains the identifier (ID) of the created brand and other details.
+
+Endpoint: GET /brands/{id}
+Description: This endpoint allows you to retrieve detailed information about a specific brand based on its identifier
+(ID). It returns all available brand data, such as name, ID and other related information.
+
+Endpoint: PUT /brands/{id}
+Description: This endpoint allows updating the data of a specific brand based on its identifier (ID). It requires the
+updated brand data to be passed, which will be applied to the existing brand information. After a successful update,
+the response contains the updated brand details.
+
+Endpoint: DELETE /brands/{id}
+Description: This endpoint allows you to delete a specific brand based on its identifier (ID). After successful
+deletion, the response confirms the deletion operation.
+"
+"passed","Wed May 17 07:37:05 GMT 2023","Wed May 17 07:37:05 GMT 2023","343","tests","test_brands_microservice","TestBrandsMicroservice","","","test_012_destructive_create_brand_with_invalid_payload","
+Test type: Positive and Negative
+
+Test microservice: Brands
+
+Test description: Suite is responsible for verifying proper functionality for /brands microservice.
+
+Endpoint: GET /brands
+Description: This endpoint allows you to retrieve a list of brands from the system. The response contains detailed
+information about each brand, such as name, identifier (ID) and other brand-related data. This is useful for displaying
+the list of brands in the user interface or other operations that require access to brand information.
+
+Endpoint: POST /brands Description: This endpoint allows you to add a new brand to the system. It requires the 
+submission of brand data, such as name and other related information. Once the brand is successfully created, 
+the response contains the identifier (ID) of the created brand and other details.
+
+Endpoint: GET /brands/{id}
+Description: This endpoint allows you to retrieve detailed information about a specific brand based on its identifier
+(ID). It returns all available brand data, such as name, ID and other related information.
+
+Endpoint: PUT /brands/{id}
+Description: This endpoint allows updating the data of a specific brand based on its identifier (ID). It requires the
+updated brand data to be passed, which will be applied to the existing brand information. After a successful update,
+the response contains the updated brand details.
+
+Endpoint: DELETE /brands/{id}
+Description: This endpoint allows you to delete a specific brand based on its identifier (ID). After successful
+deletion, the response confirms the deletion operation.
+"
+"passed","Wed May 17 07:37:08 GMT 2023","Wed May 17 07:37:09 GMT 2023","620","tests","test_product_microservice","TestProductMicroservice","","","test_001_positive_get_products","
+Test type: Positive and Negative
+
+Test microservice: Products
+
+Test description: Suite is responsible for verifying proper functionality for /products microservice.
+
+Endpoint: GET /products Description: This endpoint allows you to retrieve a list of products from the system. The 
+response contains detailed information about each product, such as name, identifier (ID), price and other data 
+related to the product. This is useful for displaying the list of products in the user interface or other operations 
+that require access to product information.
+
+Endpoint: POST /products Description: This endpoint allows you to add a new product to the system. It requires you to 
+submit product data such as name, price, description and other related information. When the product is successfully 
+created, the response contains the identifier (ID) of the created product and other details.
+
+Endpoint: GET /products/{id} Description: This endpoint allows you to retrieve detailed information about a specific 
+product based on its identifier (ID). It returns all available product data, such as name, price, description, 
+ID and other related information.
+
+Endpoint: PUT /products/{id} Description: This endpoint allows you to update the data of a specific product based on 
+its identifier (ID). It requires the updated product data to be submitted, which will be applied to the existing 
+product information. After a successful update, the response contains the updated product details.
+
+Endpoint: DELETE /products/{id} Description: This endpoint allows you to delete a specific product based on its 
+identifier (ID). After successful deletion, the response confirms the deletion operation.
+"
+"failed","Wed May 17 07:36:58 GMT 2023","Wed May 17 07:36:59 GMT 2023","289","tests","test_brands_microservice","TestBrandsMicroservice","","","test_003_negative_post_brand_with_existing_name","
+Test type: Positive and Negative
+
+Test microservice: Brands
+
+Test description: Suite is responsible for verifying proper functionality for /brands microservice.
+
+Endpoint: GET /brands
+Description: This endpoint allows you to retrieve a list of brands from the system. The response contains detailed
+information about each brand, such as name, identifier (ID) and other brand-related data. This is useful for displaying
+the list of brands in the user interface or other operations that require access to brand information.
+
+Endpoint: POST /brands Description: This endpoint allows you to add a new brand to the system. It requires the 
+submission of brand data, such as name and other related information. Once the brand is successfully created, 
+the response contains the identifier (ID) of the created brand and other details.
+
+Endpoint: GET /brands/{id}
+Description: This endpoint allows you to retrieve detailed information about a specific brand based on its identifier
+(ID). It returns all available brand data, such as name, ID and other related information.
+
+Endpoint: PUT /brands/{id}
+Description: This endpoint allows updating the data of a specific brand based on its identifier (ID). It requires the
+updated brand data to be passed, which will be applied to the existing brand information. After a successful update,
+the response contains the updated brand details.
+
+Endpoint: DELETE /brands/{id}
+Description: This endpoint allows you to delete a specific brand based on its identifier (ID). After successful
+deletion, the response confirms the deletion operation.
+"
+"failed","Wed May 17 07:37:02 GMT 2023","Wed May 17 07:37:02 GMT 2023","317","tests","test_brands_microservice","TestBrandsMicroservice","","","test_013_positive_delete_brand_auth_user[token0]","
+Test type: Positive and Negative
+
+Test microservice: Brands
+
+Test description: Suite is responsible for verifying proper functionality for /brands microservice.
+
+Endpoint: GET /brands
+Description: This endpoint allows you to retrieve a list of brands from the system. The response contains detailed
+information about each brand, such as name, identifier (ID) and other brand-related data. This is useful for displaying
+the list of brands in the user interface or other operations that require access to brand information.
+
+Endpoint: POST /brands Description: This endpoint allows you to add a new brand to the system. It requires the 
+submission of brand data, such as name and other related information. Once the brand is successfully created, 
+the response contains the identifier (ID) of the created brand and other details.
+
+Endpoint: GET /brands/{id}
+Description: This endpoint allows you to retrieve detailed information about a specific brand based on its identifier
+(ID). It returns all available brand data, such as name, ID and other related information.
+
+Endpoint: PUT /brands/{id}
+Description: This endpoint allows updating the data of a specific brand based on its identifier (ID). It requires the
+updated brand data to be passed, which will be applied to the existing brand information. After a successful update,
+the response contains the updated brand details.
+
+Endpoint: DELETE /brands/{id}
+Description: This endpoint allows you to delete a specific brand based on its identifier (ID). After successful
+deletion, the response confirms the deletion operation.
+"
+"passed","Wed May 17 07:36:55 GMT 2023","Wed May 17 07:36:55 GMT 2023","341","tests","crud_test","","","","test_001_get_brands",""
+"passed","Wed May 17 07:36:57 GMT 2023","Wed May 17 07:36:58 GMT 2023","592","tests","test_brands_microservice","TestBrandsMicroservice","","","test_002_negative_post_brand_with_existing_slug","
+Test type: Positive and Negative
+
+Test microservice: Brands
+
+Test description: Suite is responsible for verifying proper functionality for /brands microservice.
+
+Endpoint: GET /brands
+Description: This endpoint allows you to retrieve a list of brands from the system. The response contains detailed
+information about each brand, such as name, identifier (ID) and other brand-related data. This is useful for displaying
+the list of brands in the user interface or other operations that require access to brand information.
+
+Endpoint: POST /brands Description: This endpoint allows you to add a new brand to the system. It requires the 
+submission of brand data, such as name and other related information. Once the brand is successfully created, 
+the response contains the identifier (ID) of the created brand and other details.
+
+Endpoint: GET /brands/{id}
+Description: This endpoint allows you to retrieve detailed information about a specific brand based on its identifier
+(ID). It returns all available brand data, such as name, ID and other related information.
+
+Endpoint: PUT /brands/{id}
+Description: This endpoint allows updating the data of a specific brand based on its identifier (ID). It requires the
+updated brand data to be passed, which will be applied to the existing brand information. After a successful update,
+the response contains the updated brand details.
+
+Endpoint: DELETE /brands/{id}
+Description: This endpoint allows you to delete a specific brand based on its identifier (ID). After successful
+deletion, the response confirms the deletion operation.
+"
+"passed","Wed May 17 07:36:55 GMT 2023","Wed May 17 07:36:55 GMT 2023","346","tests","crud_test","","","","test_002_post_brand",""
+"passed","Wed May 17 07:37:07 GMT 2023","Wed May 17 07:37:07 GMT 2023","283","tests","test_brands_microservice","TestBrandsMicroservice","","","test_015_negative_reject_insufficient_permission_delete[customer@practicesoftwaretesting.com]","
+Test type: Positive and Negative
+
+Test microservice: Brands
+
+Test description: Suite is responsible for verifying proper functionality for /brands microservice.
+
+Endpoint: GET /brands
+Description: This endpoint allows you to retrieve a list of brands from the system. The response contains detailed
+information about each brand, such as name, identifier (ID) and other brand-related data. This is useful for displaying
+the list of brands in the user interface or other operations that require access to brand information.
+
+Endpoint: POST /brands Description: This endpoint allows you to add a new brand to the system. It requires the 
+submission of brand data, such as name and other related information. Once the brand is successfully created, 
+the response contains the identifier (ID) of the created brand and other details.
+
+Endpoint: GET /brands/{id}
+Description: This endpoint allows you to retrieve detailed information about a specific brand based on its identifier
+(ID). It returns all available brand data, such as name, ID and other related information.
+
+Endpoint: PUT /brands/{id}
+Description: This endpoint allows updating the data of a specific brand based on its identifier (ID). It requires the
+updated brand data to be passed, which will be applied to the existing brand information. After a successful update,
+the response contains the updated brand details.
+
+Endpoint: DELETE /brands/{id}
+Description: This endpoint allows you to delete a specific brand based on its identifier (ID). After successful
+deletion, the response confirms the deletion operation.
+"
+"passed","Wed May 17 07:37:04 GMT 2023","Wed May 17 07:37:04 GMT 2023","303","tests","test_brands_microservice","TestBrandsMicroservice","","","test_007_negative_create_brand_with_missing_data","
+Test type: Positive and Negative
+
+Test microservice: Brands
+
+Test description: Suite is responsible for verifying proper functionality for /brands microservice.
+
+Endpoint: GET /brands
+Description: This endpoint allows you to retrieve a list of brands from the system. The response contains detailed
+information about each brand, such as name, identifier (ID) and other brand-related data. This is useful for displaying
+the list of brands in the user interface or other operations that require access to brand information.
+
+Endpoint: POST /brands Description: This endpoint allows you to add a new brand to the system. It requires the 
+submission of brand data, such as name and other related information. Once the brand is successfully created, 
+the response contains the identifier (ID) of the created brand and other details.
+
+Endpoint: GET /brands/{id}
+Description: This endpoint allows you to retrieve detailed information about a specific brand based on its identifier
+(ID). It returns all available brand data, such as name, ID and other related information.
+
+Endpoint: PUT /brands/{id}
+Description: This endpoint allows updating the data of a specific brand based on its identifier (ID). It requires the
+updated brand data to be passed, which will be applied to the existing brand information. After a successful update,
+the response contains the updated brand details.
+
+Endpoint: DELETE /brands/{id}
+Description: This endpoint allows you to delete a specific brand based on its identifier (ID). After successful
+deletion, the response confirms the deletion operation.
+"
