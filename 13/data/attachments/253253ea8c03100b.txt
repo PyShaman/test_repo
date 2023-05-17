@@ -1,0 +1,1 @@
+INFO     fixtures.api:api.py:19 Generating token for admin@practicesoftwaretesting.com
