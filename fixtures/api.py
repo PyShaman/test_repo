@@ -19,7 +19,7 @@ def token(request):
     logger.info(f"Generating token for {request.param['email']}")
     login_response = requests.post(f"{URL}/users/login", json=login_payload, timeout=5)
     access_token = login_response.json()["access_token"]
-    yield access_token
+    return access_token
 
 
 @pytest.fixture
