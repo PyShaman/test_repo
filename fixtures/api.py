@@ -10,7 +10,7 @@ from resources.helpers import generate_random_string
 logger = logging.getLogger(__name__)
 
 
-@pytest.fixture(scope="class")
+@pytest.fixture
 def token(request):
     login_payload = {
         "email": request.param,

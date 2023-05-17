@@ -1,6 +1,3 @@
-import random
-import string
-
 import allure
 import pytest
 import requests
@@ -269,7 +266,7 @@ class TestBrandsMicroservice:
             # response performance verification
             assert_that(response_del.elapsed).is_less_than_or_equal_to(timedelta(milliseconds=800))
 
-    @pytest.mark.parametrize("token", [USER1])
+    @pytest.mark.parametrize("token", [{"email": USER1}], indirect=True)
     def test_015_negative_reject_insufficient_permission_delete(self, create_brand, token):
         brand_id = create_brand["id"]
         headers = {"Authorization": f"Bearer {token}"}
