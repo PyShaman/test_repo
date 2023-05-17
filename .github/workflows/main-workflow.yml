@@ -5,6 +5,7 @@ on:
     branches-ignore:
       - '!master'
 
+jobs:
   autotests:
     runs-on: ubuntu-latest
     steps:
