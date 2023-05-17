@@ -1,0 +1,2 @@
+INFO     fixtures.api:api.py:28 Executing POST /brands request with payload: {'name': 'name_XLSOPPlX', 'slug': 'slug_fxPOCeZA'}
+INFO     fixtures.api:api.py:19 Generating token for customer@practicesoftwaretesting.com
