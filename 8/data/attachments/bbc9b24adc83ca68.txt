@@ -1,0 +1,2 @@
+INFO     fixtures.api:api.py:28 Executing POST /brands request with payload: {'name': 'name_uYPleZmY', 'slug': 'slug_FsmLrARZ'}
+INFO     fixtures.api:api.py:39 Deleting brand with id: 18
