@@ -1,0 +1,3 @@
+INFO     fixtures.api:api.py:19 Generating token for admin@practicesoftwaretesting.com
+INFO     fixtures.api:api.py:28 Executing POST /brands request with payload: {'name': 'name_BfhxJbRv', 'slug': 'slug_HjjQlTxZ'}
+INFO     fixtures.api:api.py:39 Deleting brand with id: 19
