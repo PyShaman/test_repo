@@ -1,0 +1,1 @@
+INFO     fixtures.api:api.py:28 Executing POST /brands request with payload: {'name': 'name_MMeprqua', 'slug': 'slug_NBuVjImc'}
