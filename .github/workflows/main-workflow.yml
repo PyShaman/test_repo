@@ -4,6 +4,9 @@ on:
   push:
     branches-ignore:
       - '!master'
+  schedule:
+    - cron: "0,15,30,45 * * * *"
+
 env:
   # Setting an environment variable with the value of a configuration variable
   URL: ${{ vars.URL }}
