@@ -1,0 +1,6 @@
+allure-pytest
+allure-python-commons
+assertpy
+pytest
+python-dotenv
+requests
