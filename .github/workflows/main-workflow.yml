@@ -4,6 +4,13 @@ on:
   push:
     branches-ignore:
       - '!master'
+env:
+  # Setting an environment variable with the value of a configuration variable
+  URL: ${{ vars.URL }}
+  ADMIN: ${{ vars.ADMIN }}
+  USER1: ${{ vars.USER1 }}
+  USER2: ${{ vars.USER2 }}
+  PASSWORD: ${{ vars.PASSWORD }}
 
 jobs:
   autotests:
